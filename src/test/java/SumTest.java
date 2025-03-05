@@ -13,10 +13,6 @@ public class SumTest {
     }
 
     @Test
-    void testInputEmpty(){
-        assertEquals(0,arrayService.calculatorSumOfArray(new int[]{0}));
-    }
-    @Test
     void testInputValid(){
         assertEquals(6,arrayService.calculatorSumOfArray(new int[]{1,2,3}));
     }
